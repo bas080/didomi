@@ -1,0 +1,25 @@
+{
+  "name": "didomi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## Getting Started",
+  "main": "index.js",
+  "scripts": {
+    "start": "./index.js",
+    "test": "tape index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "ajv-formats": "^2.1.1",
+    "express": "^4.17.1",
+    "postgres": "^1.0.2",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "patroon": "^1.2.0",
+    "tape": "^5.3.2"
+  }
+}
